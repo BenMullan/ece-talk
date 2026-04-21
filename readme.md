@@ -1,5 +1,5 @@
 # embedded Chromium everywhere!
-### A security look at msedgewebview2 + CDP
+### a security look at msedgewebview2 + CDP
 <br/><br/>
 
 ## useful bits...
