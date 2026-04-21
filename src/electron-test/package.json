@@ -1,0 +1,22 @@
+{
+  "name": "electron-test",
+  "version": "1.4.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "io.github.benmullan.electron-test",
+    "productName": "electron-test",
+    "win": { "icon": "exe-icon.ico", "target": "nsis" }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^40.6.0",
+    "electron-builder": "^26.8.1"
+  }
+}
