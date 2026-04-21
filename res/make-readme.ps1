@@ -5,7 +5,7 @@
 @"
 # embedded Chromium everywhere!
 ### a security look at msedgewebview2 + CDP
-<br/><br/>
+<br/>
 
 ## useful bits...
 - [electron-test.exe](https://github.com/BenMullan/ece-talk/blob/main/src/electron-test/)
