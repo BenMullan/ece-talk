@@ -9,9 +9,6 @@
 ### A security look at msedgewebview2 + CDP
 
 </div>
-
-# embedded Chromium everywhere!
-_a security look at msedgewebview2 + CDP_
 <br/><br/>
 
 ## useful bits...
