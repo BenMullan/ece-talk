@@ -17,7 +17,7 @@ _a security look at msedgewebview2 + CDP_
 ## slides...
 $(
     dir -path (join-path $psScriptRoot "slides") -filter "*.png" -file | sort { [int]($_.baseName -replace "\D+", "") } | % {
-        "`n`n<br/>`n<img src=""https://github.com/BenMullan/ece-talk/blob/main/res/slides/$($_.name)?raw=true"" width=""100%"" />`n<br/>`n#"
+        "`n`n$("<br/>" * 2)`n<img src=""https://github.com/BenMullan/ece-talk/blob/main/res/slides/$($_.name)?raw=true"" width=""100%"" />`n`n#"
     }
 )
 
