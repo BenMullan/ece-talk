@@ -1,9 +1,5 @@
-<div align="center">
-
 # embedded Chromium everywhere!
 ### A security look at msedgewebview2 + CDP
-
-</div>
 <br/><br/>
 
 ## useful bits...
