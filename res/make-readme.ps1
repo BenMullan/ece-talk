@@ -4,18 +4,20 @@
 
 @"
 # embedded Chromium everywhere!
-> a security look at msedgewebview2 + CDP
+_a security look at msedgewebview2 + CDP_
+<br/><br/>
 
-## source
-- [example-cdp-commands.txt](https://github.com/BenMullan/ece-talk/blob/main/src/example-cdp-commands.txt)
+## useful bits...
 - [electron-test.exe](https://github.com/BenMullan/ece-talk/blob/main/src/electron-test/)
-- [msedgewebview2-win32-cpp-demo](https://github.com/BenMullan/ece-talk/blob/main/src/msedgewebview2-win32-cpp-demo/)
+- [example-cdp-commands.txt](https://github.com/BenMullan/ece-talk/blob/main/src/example-cdp-commands.txt)
 - [start-debuggable-chrome.cmd](https://github.com/BenMullan/ece-talk/blob/main/src/start-debuggable-chrome.cmd)
+- [msedgewebview2-win32-cpp-demo/](https://github.com/BenMullan/ece-talk/blob/main/src/msedgewebview2-win32-cpp-demo/)
+<br/><br/>
 
-## slides
+## slides...
 $(
     dir -path (join-path $psScriptRoot "slides") -filter "*.png" -file | sort { [int]($_.baseName -replace "\D+", "") } | % {
-        "`n#`n$("<br/>" * 2)`n<img src=""https://github.com/BenMullan/ece-talk/blob/main/res/slides/$($_.name)?raw=true"" width=""100%"" />`n$("<br/>" * 2)`n"
+        "`n`n$("<br/>" * 2)`n<img src=""https://github.com/BenMullan/ece-talk/blob/main/res/slides/$($_.name)?raw=true"" width=""100%"" />`n$("<br/>" * 2)`n#"
     }
 )
 
