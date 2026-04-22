@@ -15,12 +15,12 @@ a security look at msedgewebview2 + CDP
 <br/><br/>
 
 ## proof-of-concept screenshots...
-<br/><br/><img src="https://github.com/BenMullan/ece-talk/blob/main/res/demo--electron-code-injection-msgbox.png?raw=true" width="100%" />
-#
-<br/><br/><img src="https://github.com/BenMullan/ece-talk/blob/main/res/demo--winword-addin-native-bridge-method-scrape-doc-text.png?raw=true" width="100%" />
-#
-<br/><br/><img src="https://github.com/BenMullan/ece-talk/blob/main/res/demo--winword-addin-pane-matrix-animation.png?raw=true" width="100%" />
-<br/><br/>
+<img src="https://github.com/BenMullan/ece-talk/blob/main/res/demo--electron-code-injection-msgbox.png?raw=true" width="100%" />
+<hr/><br/>
+<img src="https://github.com/BenMullan/ece-talk/blob/main/res/demo--winword-addin-native-bridge-method-scrape-doc-text.png?raw=true" width="100%" />
+<hr/><br/>
+<img src="https://github.com/BenMullan/ece-talk/blob/main/res/demo--winword-addin-pane-matrix-animation.png?raw=true" width="100%" />
+<br/><br/><br/>
 
 ## slides...
 $(
