@@ -9,6 +9,14 @@ a security look at msedgewebview2 + CDP
 - [msedgewebview2-win32-cpp-demo/](https://github.com/BenMullan/ece-talk/blob/main/src/msedgewebview2-win32-cpp-demo/)
 <br/><br/>
 
+## proof-of-concept screenshots...
+<br/><br/><img src=""https://github.com/BenMullan/ece-talk/blob/main/res/demo--electron-code-injection-msgbox.png?raw=true"" width=""100%"" />
+#
+<br/><br/><img src=""https://github.com/BenMullan/ece-talk/blob/main/res/demo--winword-addin-native-bridge-method-scrape-doc-text.png?raw=true"" width=""100%"" />
+#
+<br/><br/><img src=""https://github.com/BenMullan/ece-talk/blob/main/res/demo--winword-addin-pane-matrix-animation.png?raw=true"" width=""100%"" />
+<br/><br/>
+
 ## slides...
 
 
