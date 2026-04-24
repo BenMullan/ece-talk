@@ -4,12 +4,12 @@
 
 
 
-{"id": 4, "method": "Runtime.evaluate", "params": {"expression": "(async () => { return await Word.run(async (context) => { const body = context.document.body; body.load('text'); await context.sync(); return body.text; }); })()", "awaitPromise": true, "returnByValue": true}}
-{ "id": 5, "method": "Runtime.evaluate", "params": { "expression": "(async () => { return await Word.run(async (context) => { const body = context.document.body; body.insertParagraph('Hello from the WebView2 DevTools!', 'End'); await context.sync(); return 'Injection Successful'; }); })()", "awaitPromise": true, "returnByValue": true}}
+{ "id": 4, "method": "Runtime.evaluate", "params": {"expression": "(async () => { return await Word.run(async (context) => { const body = context.document.body; body.load('text'); await context.sync(); return body.text; }); })()", "awaitPromise": true, "returnByValue": true}}
+{ "id": 5, "method": "Runtime.evaluate", "params": { "expression": "(async () => { return await Word.run(async (context) => { const body = context.document.body; body.insertParagraph('This is a surreptitious insertion', 'End'); await context.sync(); return 'Injection Successful'; }); })()", "awaitPromise": true, "returnByValue": true}}
 { "id": 6, "method": "Runtime.evaluate", "params": { "expression": "(async () => { return await Word.run(async (context) => { const p = context.document.properties; p.load('author, lastAuthor, created, title'); await context.sync(); return { Author: p.author, LastAuthor: p.lastAuthor, Created: p.created, Title: p.title }; }); })()", "awaitPromise": true, "returnByValue": true}}
-{"id":100, "method": "Runtime.evaluate", "params": { "expression": "(async () => { try { return await Office.auth.getAuthContext(); } catch (e) { return { error: e.message }; } })()", "awaitPromise": true, "returnByValue": true }}
+{ "id": 7, "method": "Runtime.evaluate", "params": { "expression": "(async () => { try { return await Office.auth.getAuthContext(); } catch (e) { return { error: e.message }; } })()", "awaitPromise": true, "returnByValue": true }}
 
 
 
-{ "id": 7, "method": "Runtime.evaluate", "params": { "expression": "require('child_process').exec('msg * hello')" } }
-{ "id": 8, "method": "Runtime.evaluate", "params": { "expression": "require('child_process').execSync('whoami').toString()" } }
+{ "id": 8, "method": "Runtime.evaluate", "params": { "expression": "require('child_process').exec('msg * hello')" } }
+{ "id": 9, "method": "Runtime.evaluate", "params": { "expression": "require('child_process').execSync('whoami').toString()" } }

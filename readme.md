@@ -196,6 +196,11 @@ a security look at msedgewebview2 + CDP
 # 
 
 <br/><br/>
+<img src="https://github.com/BenMullan/ece-talk/blob/main/res/slides/slide-36.png?raw=true" width="100%" />
+
+# 
+
+<br/><br/>
 <img src="https://github.com/BenMullan/ece-talk/blob/main/res/slides/slide-37.png?raw=true" width="100%" />
 
 # 
