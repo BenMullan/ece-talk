@@ -1,5 +1,5 @@
 # embedded Chromium everywhere!
-a security look at msedgewebview2 + CDP
+...a security look at msedgewebview2 + CDP
 <br/><br/>
 
 > Watch [**this talk on YouTube**](https://youtu.be/yLxGzo9OSo4)!
