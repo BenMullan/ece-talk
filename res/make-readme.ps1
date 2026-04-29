@@ -7,13 +7,13 @@
 a security look at msedgewebview2 + CDP
 <br/><br/>
 
-> Watch the [**this talk on YouTube**](https://youtu.be/yLxGzo9OSo4)!
+> Watch [**this talk on YouTube**](https://youtu.be/yLxGzo9OSo4)!
 <a href="https://youtu.be/yLxGzo9OSo4" target="_blank">
     <img src="https://github.com/BenMullan/ece-talk/blob/main/res/ece-talk--youtube-thumb.png?raw=true" width="100%" />
 </a>
-<br/><br/>
+<br/>
 
-hello! Millions of desktop applications (eg: zoom, steam, & vscode) ship a full Chromium browser with a debug-socket backdoor baked in. I examine how CDP — the protocol that powers devtools — creates some _minor_ weaknesses in Electron- and MsEdgeWebView2-based software. Live demo included!
+hello! Millions of desktop applications (eg: zoom, steam, & vscode) ship a full Chromium browser with a **debug-socket backdoor** baked in. I examine how CDP — the protocol that powers devtools — creates some _minor_ weaknesses in Electron- and MsEdgeWebView2-based software. **Live demo included!**
 <br/><br/>
 
 ## useful bits...
